@@ -1,4 +1,4 @@
-package com.zmex.multithreading.lessons.lesson2;
+package com.zmex.multithreading.lessons.lesson2_Thread_lifecycle;
 
 import com.zmex.multithreading.lessons.threads.ExtendThreadExample;
 
@@ -18,5 +18,4 @@ public class ThreadLifeCycle {
     Thread.sleep(3000);
     System.out.println("Main thread finished work");
   }
-
 }

@@ -1,4 +1,4 @@
-package com.zmex.multithreading.lessons.lesson2;
+package com.zmex.multithreading.lessons.lesson2_Thread_lifecycle;
 
 import com.zmex.multithreading.lessons.threads.ExtendThreadExample;
 
@@ -9,7 +9,8 @@ import com.zmex.multithreading.lessons.threads.ExtendThreadExample;
  * yield() - returns current thread to the thread pull(state runnable), but without warranties that
  * it won't be immediately moved into running state.
  * <p>
- * join() -
+ * join() - calling this method will told main thread to wait when this thread  will become to dead
+ * state
  */
 
 public class ThreadPriority {
@@ -32,5 +33,4 @@ public class ThreadPriority {
 
     System.out.println("Main thread finished work");
   }
-
 }

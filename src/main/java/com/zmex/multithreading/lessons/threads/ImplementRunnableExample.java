@@ -1,6 +1,6 @@
 package com.zmex.multithreading.lessons.threads;
 
-public class ExtendThreadExample extends Thread{
+public class ImplementRunnableExample implements Runnable{
 
   @Override
   public void run() {
