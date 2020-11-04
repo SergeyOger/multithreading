@@ -1,6 +1,6 @@
-package com.zmex.multithreading.lessons.lesson3_Synchronization;
+package com.zmex.multithreading.lessons.resource;
 
-public class Resource {
+public class VisitorJournal {
 
   private int visitorCounter;
 

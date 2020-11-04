@@ -11,7 +11,7 @@ import com.zmex.multithreading.lessons.threads.ImplementRunnableExample;
  * parameter to Thread
  */
 
-public class ThreadRunner {
+public class RunningThreadExample {
 
   public static void main(String[] args) {
     Thread firstThread = new ExtendThreadExample();

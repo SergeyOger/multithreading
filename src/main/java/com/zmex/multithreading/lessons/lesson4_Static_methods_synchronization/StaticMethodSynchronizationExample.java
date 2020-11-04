@@ -1,6 +1,6 @@
 package com.zmex.multithreading.lessons.lesson4_Static_methods_synchronization;
 
-public class App {
+public class StaticMethodSynchronizationExample {
 
   public static void main(String[] args) throws InterruptedException {
 
