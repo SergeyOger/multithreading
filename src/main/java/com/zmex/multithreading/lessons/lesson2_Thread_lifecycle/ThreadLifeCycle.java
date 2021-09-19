@@ -12,10 +12,10 @@ import com.zmex.multithreading.lessons.threads.ExtendThreadExample;
 
 public class ThreadLifeCycle {
 
-  public static void main(String[] args) throws InterruptedException {
-    ExtendThreadExample extendThreadExample = new ExtendThreadExample();
-    extendThreadExample.start();
-    Thread.sleep(3000);
-    System.out.println("Main thread finished work");
-  }
+    public static void main(String[] args) throws InterruptedException {
+        ExtendThreadExample extendThreadExample = new ExtendThreadExample();
+        extendThreadExample.start();
+        Thread.sleep(3000);
+        System.out.println("Main thread finished work");
+    }
 }

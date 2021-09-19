@@ -13,12 +13,12 @@ import com.zmex.multithreading.lessons.threads.ImplementRunnableExample;
 
 public class RunningThreadExample {
 
-  public static void main(String[] args) {
-    Thread firstThread = new ExtendThreadExample();
-    firstThread.start();
+    public static void main(String[] args) {
+        Thread firstThread = new ExtendThreadExample();
+        firstThread.start();
 
-    ImplementRunnableExample implementRunnableExample = new ImplementRunnableExample();
-    Thread secondThreadRunner = new Thread(implementRunnableExample);
-    secondThreadRunner.start();
-  }
+        ImplementRunnableExample implementRunnableExample = new ImplementRunnableExample();
+        Thread secondThreadRunner = new Thread(implementRunnableExample);
+        secondThreadRunner.start();
+    }
 }
